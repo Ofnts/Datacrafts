@@ -189,7 +189,8 @@ a:hover {
         display: inline-flex;
         flex-direction: row;
         margin-left: 5px;
-        overflow: auto;
+        margin: 2em;
+        
 
 }
 .pro span {

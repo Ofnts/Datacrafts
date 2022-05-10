@@ -127,7 +127,7 @@ a:hover {
 .contenty {
 	justify-content: center;
 	align-items: center;
-	height: 50vh;
+	height: 30vh;
 	width: 100%;
 	color: #000;
 }
@@ -185,9 +185,7 @@ a:hover {
 .pro {
 	padding: 3em 0 0 0;
 	text-align: center;
-	height: 50vh;
-        display: flex;
-        over-flow: auto;
+	height: 40vh;
 
 }
 .pro span {

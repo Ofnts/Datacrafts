@@ -1,0 +1,536 @@
+/* ---styling--- Developed by Anubis*/
+
+body {
+	position: relative;
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	scroll-behavior: smooth;
+	color:  #000;
+	box-sizing: content-box;
+}
+.bk {
+	background-image: url(./images/lab.jpg);
+	background-position: center;
+	background-size: cover;
+	width: 100%;
+	height: 24em;
+}
+/* ---------======== Page Header ============-----------*/
+.header {
+	margin: 0;
+}
+.down {
+	display: none;
+
+}
+.dropdown {
+	display: none;
+}
+
+nav {
+	width: 100%;
+	position: fixed;
+	padding: 10px;
+	height: 2.5em;
+}
+nav.hov {
+	background-color: rgba(0, 0, 0, 0.7);
+}
+nav li {
+	font-size: 19px;
+	padding: 0 3vh 0 0;
+	float: right;
+	list-style: none;
+}
+nav li a {
+	position: relative;
+	color: #fff;
+	text-decoration: none;
+
+}
+a:hover {
+	color: red;
+}
+.links {
+	cursor: pointer;
+}
+
+/* ------------========= socila media icons =======--------*/
+.Words span {
+	font-size: 18px;
+}
+.Words h1 {
+	margin-top: 3em;
+	font-size: 37px;
+	font-weight: 800;
+}
+.Words {
+	position: absolute;
+	color: #fff;
+	text-align: center;
+	width: 100%;
+	height: 24em;
+	background-color: rgba(0, 0, 0, 0.5);
+
+}
+.Words p{
+	overflow: hidden;
+}
+.Words p span{
+    font-size: 25px;
+    color:#ff2c45;
+    font-weight: 600;
+    display: inline-block;
+    line-height: 46px;
+    display: none;
+}
+.Words p span.text-in{
+	display: block;
+	animation: textIn .5s ease;
+}
+.Words p span.text-out{
+	animation: textOut .5s ease;
+}
+
+/*-------------======== Main page =========----------------*/
+.main {
+	overflow: 0 auto;
+	margin: 0;
+	background-color: rgba(0, 0, 0, 0.1);
+}
+.main-page {
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	display: grid;
+	font-family: sans-serif;
+}
+.cs {
+	border-radius: 15px;
+}
+.cs a{
+	text-decoration: none;
+}
+.Cybersecurity {
+	display: inline-flex;
+}
+.Cybersecurity img {
+	margin: 1em;
+	border-radius: 50%;
+	height: 10em;
+	width: 10.2em;
+}
+
+
+/* -----------================ content =============------------------*/
+
+.contenty {
+	justify-content: center;
+	align-items: center;
+	height: 50vh;
+	width: 100%;
+	color: #000;
+}
+.content {
+	margin: 1em 0 1em 22em;
+	display: inline-flex;
+	text-align: center;
+	font-size: 16px;
+	font-family: sans-serif;
+
+}
+
+.mission {
+	padding: 1vh;
+	border-radius: 12px;
+	background-color: rgba(0, 0, 255, 0.2);
+	margin-right: 2em ;
+	text-align: center;
+	height: 13em;
+	width: 18em;
+}
+.vision {
+	padding: 1vh;
+	border-radius: 12px;
+	background-color: rgba(0, 0, 255, 0.2);
+	text-align: center;
+	height: 13em;
+	width: 18em;
+}
+
+/* ------------=========== Info page =====-----------*/
+.infim {
+	background:  rgba(0, 0, 0, .9);
+}
+.info, .infi {
+	display: inline-flex;
+	margin: 2em; 
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+.info img {
+	float:  right;
+}
+.hinfo h2{
+	margin: 0;
+	padding-top: 1em;
+	text-align: center;
+}
+.hinfo {
+	color: #fff;
+	background-color: rgba(0, 0, 0, 0.4);
+}
+/*-----------========= List Of Services ===============---------*/
+.pro {
+	padding: 4em 0 4em 0;
+	text-align: center;
+	height: 50vh;
+
+}
+.pro span {
+	text-align: left;
+	margin: 5px;
+	display: inline-flex;
+}
+.pro span ul li {
+	margin: 3px;
+}
+
+
+/*-------------============ Footer =========------------*/
+.footer {
+	background: rgba(0, 0, 200, 0.5);
+	width: 100%;
+	color: #000;
+}
+.block {
+	display: inline-flex;
+}
+.address {
+	display: inline-grid;
+	padding-left: 1em;
+	line-height: 1px;
+}
+
+.contacts {
+	width: 20em;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	margin-left: 3em ;
+}
+.user {
+	font-size: 15px;
+	margin: 0.8em;
+	width: 100%;
+}.mail {
+	font-size: 15px;
+	margin: 0.8em;
+	width: 100%;
+}.submit {
+	height: 2em;
+	width: 100%;
+	margin: 1em 1em 1em 1.5em;
+}.area {
+	height: 10vh;
+	width: 100%;
+	margin: 0.8em;
+}
+.ims {
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	margin-left: 3em ;
+}
+.ims img {
+	width: 90px;
+	height: 80px;
+}
+
+/*---------========== media Queries ==========----------------*/
+
+@media screen and (max-width: 700px) {
+	/* ---styling--- Developed by Anubis*/
+body {
+	position: relative;
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	scroll-behavior: smooth;
+	color:  #000;
+	box-sizing: content-box;
+}
+.bk {
+	background-image: url(./images/lab.jpg);
+	background-position: center;
+	background-size: cover;
+	width: 100%;
+	height: 24em;
+}
+/* ---------======== Page Header ============-----------*/
+.header {
+	margin: 0;
+}
+.down{
+	display: none;
+}
+.showing {
+	display: flex;
+	flex-direction: column;
+	float: left;
+}
+.dropdown {
+	height: 30px;
+	width: 40px;
+	margin: 0 10px 5px 0;
+	display: flex;
+}
+
+nav {
+	width: 100%;
+}
+nav.hov {
+	background-color: rgba(0, 0, 0, 0.7);
+}
+nav li {
+	display: none;
+	font-size: 19px;
+	padding: 0 3vh 0 0;
+	list-style: none;
+}
+nav li a {
+	position: relative;
+	color: #fff;
+	text-decoration: none;
+
+}
+a:hover {
+	color: red;
+}
+.links {
+	cursor: pointer;
+}
+
+/* ------------========= socila media icons =======--------*/
+.Words span {
+	font-size: 18px;
+}
+.Words h1 {
+	margin-top: 3em;
+	font-size: 37px;
+	font-weight: 800;
+}
+.Words {
+	position: absolute;
+	color: #fff;
+	text-align: center;
+	width: 100%;
+	height: 24em;
+	background-color: rgba(0, 0, 0, 0.5);
+
+}
+.Words p{
+	overflow: hidden;
+}
+.Words p span{
+    font-size: 25px;
+    color:#ff2c45;
+    font-weight: 600;
+    display: inline-block;
+    line-height: 46px;
+    display: none;
+}
+.Words p span.text-in{
+	display: block;
+	animation: textIn .5s ease;
+}
+.Words p span.text-out{
+	animation: textOut .5s ease;
+}
+
+/*-------------======== Main page =========----------------*/
+.main {
+	overflow: 0 auto;
+	margin: 0;
+	background-color: rgba(0, 0, 0, 0.1);
+}
+.main-page {
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	display: grid;
+	font-family: sans-serif;
+}
+.cs {
+	border-radius: 15px;
+}
+.cs a{
+	text-decoration: none;
+}
+.Cybersecurity {
+	display: inline-flex;
+}
+.Cybersecurity img {
+	margin: 1em;
+	border-radius: 50%;
+	height: 5em;
+	width: 5.2em;
+}
+
+/* -----------================ content =============------------------*/
+
+.contenty {
+	justify-content: center;
+	align-items: center;
+	height: 50vh;
+	width: 100%;
+	color: #000;
+}
+.content {
+	margin: 1em 0 1em 1em;
+	display: inline-flex;
+	text-align: center;
+	font-size: 16px;
+	font-family: sans-serif;
+
+}
+
+.mission {
+	padding: 1vh;
+	border-radius: 12px;
+	background-color: rgba(0, 0, 255, 0.2);
+	margin-right: 2em auto;
+	margin-left: 2em;
+	text-align: center;
+	height: auto;
+	width: 12em;
+}
+.vision {
+	padding: 1vh;
+	border-radius: 12px;
+	background-color: rgba(0, 0, 255, 0.2);
+	text-align: center;
+	height: auto;
+	width: 12em;
+}
+
+/* ------------=========== Info page =====-----------*/
+.infim {
+	background:  rgba(0, 0, 0, .9);
+}
+.info, .infi {
+	display: flex;
+	margin: 1em; 
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.info, .infi span {
+	text-align: left;
+}
+.hinfo h2{
+	margin: 0;
+	padding-top: 1em;
+	text-align: center;
+}
+.hinfo {
+	color: #fff;
+	background-color: rgba(0, 0, 0, 0.4);
+}
+/*-----------========= List Of Services ===============---------*/
+.pro {
+	padding: 1em 0 1em 0;
+	text-align: center;
+	height: 60vh;
+	display: inline-flex;
+	flex-direction: column;
+	overflow-x: scroll;
+	margin-left: 5px;
+
+}
+.pro h1 {
+	font-size: 30px;
+}
+.pro span {
+	text-align: left;
+	margin: 5px;
+}
+.pro span ul li {
+	margin: 3px;
+}
+
+
+/*-------------============ Footer =========------------*/
+.footer {
+	background: rgba(0, 0, 200, 0.5);
+	width: 100%;
+	color: #000;
+}
+.block {
+	display: inline-flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.address {
+	display:  none;
+
+}
+.contacts {
+	width: 18em;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	margin-left: 7em ;
+}
+.user {
+	font-size: 15px;
+	margin: 0.8em;
+	width: 100%;
+}.mail {
+	font-size: 15px;
+	margin: 0.8em;
+	width: 100%;
+}.submit {
+	height: 2em;
+	width: 100%;
+	margin: 1em 1em 1em 1.5em;
+}.area {
+	height: 10vh;
+	width: 100%;
+	margin: 0.8em;
+}
+.ims {
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	margin-left: 8em ;
+}
+.ims img {
+	width: 70px;
+	height: 60px;
+}
+
+}
+/* ----------========== animation keyframes ==========-----------*/
+
+@keyframes textIn{
+	0%{
+		transform: translateY(100%);
+	}
+	100%{
+		transform: translateY(0%);
+	}
+}
+@keyframes textOut{
+	0%{
+		transform: translateY(0%);
+	}
+	100%{
+		transform: translateY(-100%);
+
+	}
+}
+

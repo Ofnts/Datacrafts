@@ -187,7 +187,7 @@ a:hover {
 	text-align: center;
 	height: 40vh;
         display: inline-flex;
-        flex-direction: column;
+        flex-direction: row;
         overflow-x: scroll;
         margin-left: 5px;
 

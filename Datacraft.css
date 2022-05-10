@@ -183,17 +183,16 @@ a:hover {
 }
 /*-----------========= List Of Services ===============---------*/
 .pro {
-	padding: 4em 0 4em 0;
+	padding: 3em 0 0 0;
 	text-align: center;
 	height: 50vh;
+        display: inline-flex;
+        flex-direction: row;
 
 }
 .pro span {
 	text-align: left;
 	margin: 5px;
-	display: inline-flex;
-	flex-direction: column;
-	flex: 1;
 }
 .pro span ul li {
 	margin: 3px;
@@ -252,7 +251,7 @@ a:hover {
 
 /*---------========== media Queries ==========----------------*/
 
-@media screen and (max-width: 700px) and (orientation:landscape) {
+@media screen and (max-width: 700px){
 	/* ---styling--- Developed by Anubis*/
 body {
 	position: relative;

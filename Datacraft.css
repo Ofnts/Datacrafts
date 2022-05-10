@@ -314,7 +314,6 @@ a:hover {
 	cursor: pointer;
 }
 
-/* ------------========= socila media icons =======--------*/
 .Words span {
 	font-size: 18px;
 }
@@ -402,7 +401,7 @@ a:hover {
 	padding: 1vh;
 	border-radius: 12px;
 	background-color: rgba(0, 0, 255, 0.2);
-	margin-right: 2px auto;
+	margin-right: 2px;
 	margin-left: 2px;
 	text-align: center;
 	height: auto;

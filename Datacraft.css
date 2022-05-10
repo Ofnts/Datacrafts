@@ -183,7 +183,7 @@ a:hover {
 }
 /*-----------========= List Of Services ===============---------*/
 .pro {
-	padding: 3em 0 13m 0;
+	padding: 3em 0 13em 0;
 	text-align: center;
 	height: 50vh;
         display: flex;
@@ -191,7 +191,6 @@ a:hover {
         justify-ccontent: center;
         align-items: center;
         margin-left: 5px;
-        margin: 2em;
         overflow: auto;
         
 

@@ -128,7 +128,7 @@ a:hover {
 .contenty {
 	justify-content: center;
 	align-items: center;
-	height: 50vh;
+	height: 30vh;
 	width: 100%;
 	color: #000;
 }
@@ -145,7 +145,7 @@ a:hover {
 	padding: 1vh;
 	border-radius: 12px;
 	background-color: rgba(0, 0, 255, 0.2);
-	margin-right: 22em ;
+	margin-right: 5em ;
 	text-align: center;
 	height: 13em;
 	width: 18em;
@@ -246,7 +246,7 @@ a:hover {
 	margin-left: 3em ;
 }
 .ims img {
-	width: 90px;
+	width: 70px;
 	height: 80px;
 }
 
@@ -368,12 +368,14 @@ a:hover {
 }
 .cs a{
 	text-decoration: none;
+	font-size: 12px;
 }
 .Cybersecurity {
 	display: inline-flex;
+	padding: 1em;
 }
 .Cybersecurity img {
-	margin: 1em;
+	margin: 0.5em;
 	border-radius: 50%;
 	height: 5em;
 	width: 5.2em;
@@ -401,7 +403,7 @@ a:hover {
 	padding: 1vh;
 	border-radius: 12px;
 	background-color: rgba(0, 0, 255, 0.2);
-	margin-right: 2px;
+	margin-right: 6px;
 	margin-left: 2px;
 	text-align: center;
 	height: auto;

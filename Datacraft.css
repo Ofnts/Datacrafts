@@ -186,8 +186,8 @@ a:hover {
 	padding: 3em 0 0 0;
 	text-align: center;
 	height: 50vh;
-        display: inline-flex;
-        flex-direction: row;
+        display: flex;
+        over-flow: auto;
 
 }
 .pro span {

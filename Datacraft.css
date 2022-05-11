@@ -134,7 +134,7 @@ a:hover {
 }
 .content {
 	margin: 1em 0 2em 12em;
-	flex-direction: column
+	flex-direction: column;
 	text-align: center;
 	font-size: 16px;
 	font-family: sans-serif;
@@ -399,7 +399,7 @@ a:hover {
 }
 .content {
 	margin: 1em 0 1em 1em;
-	flex-direction: column
+	flex-direction: column;
 	text-align: center;
 	font-size: 16px;
 	font-family: sans-serif;
@@ -515,7 +515,6 @@ a:hover {
 	margin: 0.8em;
 }
 .ims {
-	display: flex;
 	justify-content: center;
 	align-items: center;
 	text-align: center;

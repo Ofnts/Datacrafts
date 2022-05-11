@@ -163,14 +163,14 @@ a:hover {
 	background:  rgba(0, 0, 0, .9);
 }
 .info, .infi {
-	display: inline-flex;
+	display: flex;
 	margin: 2em; 
 	justify-content: center;
 	align-items: center;
-	text-align: center;
+	flex-direction: column;
 }
-.info img {
-	float:  right;
+.info, .infi span {
+	text-align: left;
 }
 .hinfo h2{
 	margin: 0;
@@ -257,7 +257,7 @@ a:hover {
 
 /*---------========== media Queries ==========----------------*/
 
-@media screen and (max-width: 700px){
+@media screen and (max-width: 920px){
 	/* ---styling--- Developed by Anubis*/
 body {
 	position: relative;

@@ -125,6 +125,7 @@ a:hover {
 /* -----------================ content =============------------------*/
 
 .contenty {
+	display: inline-flex;
 	justify-content: center;
 	align-items: center;
 	height: 50vh;
@@ -132,8 +133,7 @@ a:hover {
 	color: #000;
 }
 .content {
-	margin: 1em 0 2em 14em;
-	display: inline-flex;
+	margin: 1em 0 2em auto;
 	text-align: center;
 	font-size: 16px;
 	font-family: sans-serif;
@@ -451,7 +451,7 @@ a:hover {
 .pro {
 	padding: 1em 0 1em 0;
 	text-align: center;
-	height: 60vh;
+	height: 40vh;
 	display: inline-flex;
 	flex-direction: column;
 	overflow-x: scroll;
@@ -488,8 +488,10 @@ a:hover {
 }
 .contacts {
 	width: 18em;
+	display: flex;
 	justify-content: center;
 	align-items: center;
+	flex-direction: row;
 	text-align: center;
 	margin-left: 3em ;
 }
@@ -511,8 +513,10 @@ a:hover {
 	margin: 0.8em;
 }
 .ims {
+	display: flex;
 	justify-content: center;
 	align-items: center;
+	flex-direction: row;
 	text-align: center;
 	margin-left: 3em ;
 }

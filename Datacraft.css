@@ -128,12 +128,13 @@ a:hover {
 	display: inline-flex;
 	justify-content: center;
 	align-items: center;
+	flex-direction: column;
 	height: 50vh;
 	width: 100%;
 	color: #000;
 }
 .content {
-	margin: 1em 0 2em auto;
+	margin: 1em 0 2em 12em;
 	text-align: center;
 	font-size: 16px;
 	font-family: sans-serif;
@@ -392,7 +393,7 @@ a:hover {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	flex-direction: row;
+	flex-direction: column;
 	height: 50vh;
 	width: 100%;
 	color: #000;
@@ -451,9 +452,10 @@ a:hover {
 .pro {
 	padding: 1em 0 1em 0;
 	text-align: center;
-	height: 40vh;
+	height: 50vh;
 	display: inline-flex;
 	flex-direction: column;
+	width: 100%;
 	overflow-x: scroll;
 	margin-left: 5px;
 

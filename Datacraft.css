@@ -125,10 +125,10 @@ a:hover {
 /* -----------================ content =============------------------*/
 
 .contenty {
-	display: inline-flex;
+	display: flex;
 	justify-content: center;
 	align-items: center;
-	flex-direction: column;
+	flex-direction: row;
 	height: 50vh;
 	width: 100%;
 	color: #000;
@@ -393,7 +393,7 @@ a:hover {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	flex-direction: column;
+	flex-direction: row;
 	height: 50vh;
 	width: 100%;
 	color: #000;
@@ -479,7 +479,7 @@ a:hover {
 	color: #000;
 }
 .block {
-	display: inline-flex;
+	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;

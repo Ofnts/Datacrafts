@@ -99,10 +99,10 @@ a:hover {
 	background-color: rgba(0, 0, 0, 0.1);
 }
 .main-page {
+        display: flex;
 	justify-content: center;
 	align-items: center;
 	text-align: center;
-	display: grid;
 	font-family: sans-serif;
 }
 .cs {
@@ -359,10 +359,10 @@ a:hover {
 	background-color: rgba(0, 0, 0, 0.1);
 }
 .main-page {
+        display: flex;
 	justify-content: center;
 	align-items: center;
 	text-align: center;
-	display: grid;
 	font-family: sans-serif;
 }
 .cs {
@@ -402,8 +402,6 @@ a:hover {
 	padding: 1vh;
 	border-radius: 12px;
 	background-color: rgba(0, 0, 255, 0.2);
-	margin-right: 8px;
-	margin-left: 2px;
 	text-align: center;
 	height: auto;
 	width: 10em;
@@ -419,6 +417,7 @@ a:hover {
 
 /* ------------=========== Info page =====-----------*/
 .infim {
+        margin: 0;
 	background:  rgba(0, 0, 0, .9);
 }
 .info, .infi {
@@ -484,7 +483,7 @@ a:hover {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	flex-direction: row;
+        flex-direction: column;
 	text-align: center;
 	margin-left: 3em ;
 }

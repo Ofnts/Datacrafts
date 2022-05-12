@@ -270,7 +270,7 @@ body {
 	background-image: url(./lab.jpg);
 	background-position: center;
 	background-size: cover;
-        border-radius: 0 0 30px 30px;
+        border-radius: 0 0 40px 40px;
 	width: 100%;
 	height: 24em;
 }
@@ -359,7 +359,6 @@ a:hover {
 .main {
 	overflow: 0 auto;
 	margin: 0;
-	background-color: rgba(0, 0, 0, 0.1);
 }
 .main-page {
 	text-align: center;
@@ -379,8 +378,6 @@ a:hover {
 .Cybersecurity img {
 	margin: 0.5em;
 	border-radius: 50%;
-	height: 5em;
-	width: 5.2em;
 }
 
 /* -----------================ content =============------------------*/

@@ -99,9 +99,6 @@ a:hover {
 	background-color: rgba(0, 0, 0, 0.1);
 }
 .main-page {
-        display: flex;
-	justify-content: center;
-	align-items: center;
 	text-align: center;
 	font-family: sans-serif;
 }
@@ -414,6 +411,7 @@ a:hover {
 
 /* ------------=========== Info page =====-----------*/
 .infim {
+        overflow: 0;
         margin: 1px;
 	background:  rgba(0, 0, 0, .9);
 }
@@ -498,7 +496,7 @@ a:hover {
 	margin: 0.8em;
 }
 .ims {
-	align-items: center;
+	justify-content: center;
 	text-align: center;
 }
 .ims img {

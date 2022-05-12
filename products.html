@@ -7,20 +7,11 @@
 </head>
 <body>
 <style type="text/css">
-.view {
-	background-image: url(./Logo.svg);
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: contain;
-	position: absolute;
-	padding: 0;
-	margin: 0;
-	}
 .view-page {
+        display: flex;
 	justify-content: center;
 	align-items: center;
 	text-align: center;
-	display: grid;
 	font-family: sans-serif;
 }
 .cr {
@@ -44,14 +35,14 @@ button {
 
 .Cyber-view {
 	display: flex;
-        flex-direction: auto;
+        flex-wrap: wrap;
 }
 .Cyber-view img {
 	border-radius: 15px 15px 0 0;
 	height: 10em;
 	width: 100%;
 }
-@media screen and (max-width: 600px){
+@media screen and (max-width: 920px){
 	.view {
 		display: grid-column;
            
@@ -62,7 +53,6 @@ button {
 	}
 }
 </style>
-<div class="view">
 <div class="view-page">
 	<div class="Cyber-view">
 	<div class="cr">
@@ -126,6 +116,5 @@ button {
 		<button>Enquire</button>
 	</div>
 	</div>
-</div>
 </body>
 </html>

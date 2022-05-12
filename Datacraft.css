@@ -380,6 +380,8 @@ a:hover {
 .Cybersecurity img {
 	margin: 0.5em;
 	border-radius: 50%;
+        width: 5em;
+        height: 5em;
 }
 
 /* -----------================ content =============------------------*/

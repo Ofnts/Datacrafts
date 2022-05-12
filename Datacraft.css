@@ -466,6 +466,7 @@ a:hover {
 .block {
 	display: flex;
 	justify-content: center;
+        align-items: center;
         flex-direction: column;
 }
 .address {
@@ -473,6 +474,7 @@ a:hover {
 
 }
 form {
+        margin: auto;
 	width: 18em;
 	text-align: center;
 }

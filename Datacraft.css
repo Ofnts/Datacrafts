@@ -8,6 +8,7 @@ body {
 	scroll-behavior: smooth;
 	color:  #000;
 	box-sizing: content-box;
+        background-color: rgba(0, 0, 0, 0.1);
 }
 .bk {
 	background-image: url(./lab.jpg);
@@ -96,7 +97,6 @@ a:hover {
 .main {
 	overflow: 0 auto;
 	margin: 0;
-	background-color: rgba(0, 0, 0, 0.1);
 }
 .main-page {
 	text-align: center;
@@ -257,15 +257,6 @@ a:hover {
 
 @media screen and (max-width: 920px){
 	/* ---styling--- Developed by Anubis*/
-body {
-	position: relative;
-	margin: 0;
-	padding: 0;
-	font-family: sans-serif;
-	scroll-behavior: smooth;
-	color:  #000;
-	box-sizing: content-box;
-}
 .bk {
 	background-image: url(./lab.jpg);
 	background-position: center;

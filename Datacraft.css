@@ -125,13 +125,13 @@ a:hover {
 /* -----------================ content =============------------------*/
 
 .contenty {
-	display: flex;
-        align-items: center;
 	height: 50vh;
 	width: 100%;
 	color: #000;
 }
 .content {
+        display: flex;
+        justify-content: center;
 	font-size: 16px;
 	font-family: sans-serif;
 
@@ -386,13 +386,13 @@ a:hover {
 /* -----------================ content =============------------------*/
 
 .contenty {
-        display: flex;
-        align-items: center;
 	height: 50vh;
 	width: 100%;
 	color: #000;
 }
 .content {
+        display: flex;
+        justify-content: center;
 	font-size: 16px;
 	font-family: sans-serif;
 
@@ -473,6 +473,7 @@ a:hover {
 .block {
 	display: flex;
 	justify-content: center;
+        flex-direction: column;
 }
 .address {
 	display:  none;

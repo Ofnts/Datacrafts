@@ -214,7 +214,7 @@ a:hover {
 	line-height: 1px;
 }
 
-.contacts {
+form {
 	width: 20em;
 	justify-content: center;
 	align-items: center;
@@ -398,7 +398,7 @@ a:hover {
 	background-color: rgba(0, 0, 255, 0.2);
 	text-align: center;
 	height: auto;
-	width: 13em;
+	width: 14em;
 }
 .vision {
 	padding: 1vh;
@@ -406,7 +406,7 @@ a:hover {
 	background-color: rgba(0, 0, 255, 0.2);
 	text-align: center;
 	height: auto;
-	width: 13em;
+	width: 14em;
 }
 
 /* ------------=========== Info page =====-----------*/
@@ -472,8 +472,7 @@ a:hover {
 	display:  none;
 
 }
-.contacts {
-        margin-left: 7em;
+form {
 	width: 18em;
 	text-align: center;
 }

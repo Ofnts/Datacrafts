@@ -249,7 +249,7 @@ a:hover {
 	margin-left: 3em ;
 }
 .ims img {
-	width: 90px;
+	width: auto;
 	height: 80px;
 }
 
@@ -270,6 +270,7 @@ body {
 	background-image: url(./lab.jpg);
 	background-position: center;
 	background-size: cover;
+        border-radius: 0 0 30px 30px;
 	width: 100%;
 	height: 24em;
 }
@@ -327,6 +328,7 @@ a:hover {
 }
 .Words {
 	position: absolute;
+        border-radius: 0 0 30px 30px;
 	color: #fff;
 	text-align: center;
 	width: 100%;

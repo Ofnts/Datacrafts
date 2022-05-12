@@ -328,7 +328,7 @@ a:hover {
 }
 .Words {
 	position: absolute;
-        border-radius: 0 0 30px 30px;
+        border-radius: 0 0 40px 40px;
 	color: #fff;
 	text-align: center;
 	width: 100%;
@@ -361,6 +361,8 @@ a:hover {
 	margin: 0;
 }
 .main-page {
+        display: flex;
+        justify-content: center;
 	text-align: center;
 	font-family: sans-serif;
 }

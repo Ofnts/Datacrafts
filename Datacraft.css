@@ -22,7 +22,7 @@ body {
 	margin: 0;
 }
 .down {
-	display: none;
+	display: block;
 
 }
 .dropdown {

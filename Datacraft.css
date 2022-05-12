@@ -209,7 +209,7 @@ a:hover {
 	display: inline-flex;
 }
 .address {
-	display: inline-grid;
+	display: flex;
 	padding-left: 1em;
 	line-height: 1px;
 }
@@ -219,7 +219,6 @@ a:hover {
 	justify-content: center;
 	align-items: center;
 	text-align: center;
-	margin-left: 3em ;
 }
 .user {
 	font-size: 15px;
@@ -388,6 +387,7 @@ a:hover {
         display: flex;
         justify-content: center;
 	font-size: 16px;
+        margin: 1em;
 	font-family: sans-serif;
 
 }
@@ -397,7 +397,7 @@ a:hover {
 	border-radius: 12px;
 	background-color: rgba(0, 0, 255, 0.2);
 	text-align: center;
-	height: auto;
+	height: 20em;
 	width: 10em;
 }
 .vision {
@@ -405,14 +405,12 @@ a:hover {
 	border-radius: 12px;
 	background-color: rgba(0, 0, 255, 0.2);
 	text-align: center;
-	height: auto;
+	height: 20em;
 	width: 10em;
 }
 
 /* ------------=========== Info page =====-----------*/
 .infim {
-        overflow: 0;
-        margin: 1px;
 	background:  rgba(0, 0, 0, .9);
 }
 .info, .infi {
@@ -476,7 +474,6 @@ a:hover {
 .contacts {
 	width: 18em;
 	text-align: center;
-	margin-left: 3em ;
 }
 .user {
 	font-size: 15px;

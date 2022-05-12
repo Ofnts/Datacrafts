@@ -359,9 +359,6 @@ a:hover {
 	background-color: rgba(0, 0, 0, 0.1);
 }
 .main-page {
-        display: flex;
-	justify-content: center;
-	align-items: center;
 	text-align: center;
 	font-family: sans-serif;
 }
@@ -417,7 +414,7 @@ a:hover {
 
 /* ------------=========== Info page =====-----------*/
 .infim {
-        margin: 0;
+        margin: 1px;
 	background:  rgba(0, 0, 0, .9);
 }
 .info, .infi {
@@ -480,10 +477,6 @@ a:hover {
 }
 .contacts {
 	width: 18em;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-        flex-direction: column;
 	text-align: center;
 	margin-left: 3em ;
 }
@@ -507,7 +500,6 @@ a:hover {
 .ims {
 	align-items: center;
 	text-align: center;
-	margin-left: 3em ;
 }
 .ims img {
 	width: 70px;

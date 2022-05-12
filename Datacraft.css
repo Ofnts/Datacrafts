@@ -397,16 +397,18 @@ a:hover {
 	border-radius: 12px;
 	background-color: rgba(0, 0, 255, 0.2);
 	text-align: center;
-	height: 8em;
-	width: 10em;
+	height: 10em;
+	width: 12em;
+        overflow-wrap: wrap;
 }
 .vision {
 	padding: 1vh;
 	border-radius: 12px;
 	background-color: rgba(0, 0, 255, 0.2);
 	text-align: center;
-	height: 8em;
-	width: 10em;
+	height: 10em;
+	width: 12em;
+        overflow-wrap: wrap;
 }
 
 /* ------------=========== Info page =====-----------*/
@@ -472,7 +474,8 @@ a:hover {
 	display:  none;
 
 }
-form {
+.contacts {
+        justify-content: center;
 	width: 18em;
 	text-align: center;
 }

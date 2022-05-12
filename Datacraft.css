@@ -138,7 +138,7 @@ a:hover {
 	padding: 1vh;
 	border-radius: 12px;
 	background-color: rgba(0, 0, 255, 0.2);
-	margin-right: 5em ;
+	margin-right: 2em ;
 	text-align: center;
 	height: 13em;
 	width: 18em;
@@ -207,13 +207,18 @@ a:hover {
 }
 .block {
 	display: inline-flex;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
 }
 .address {
 	display: grid;
 	padding-left: 1em;
-	line-height: 1px;
 }
-
+.address p {
+        margin: 0;
+        padding: 0;
+}
 .contacts {
 	width: 20em;
 	justify-content: center;

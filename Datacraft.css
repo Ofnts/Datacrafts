@@ -126,7 +126,7 @@ a:hover {
 
 .contenty {
 	display: flex;
-        justify-content: center;
+        align-items: center;
 	height: 50vh;
 	width: 100%;
 	color: #000;
@@ -387,7 +387,7 @@ a:hover {
 
 .contenty {
         display: flex;
-        justify-content: center
+        align-items: center;
 	height: 50vh;
 	width: 100%;
 	color: #000;
@@ -472,9 +472,7 @@ a:hover {
 }
 .block {
 	display: flex;
-	flex-direction: row;
 	justify-content: center;
-	align-items: center;
 }
 .address {
 	display:  none;
@@ -507,7 +505,6 @@ a:hover {
 	margin: 0.8em;
 }
 .ims {
-	justify-content: center;
 	align-items: center;
 	text-align: center;
 	margin-left: 3em ;

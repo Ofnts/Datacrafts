@@ -209,7 +209,7 @@ a:hover {
 	display: inline-flex;
 }
 .address {
-	display: flex;
+	display: grid;
 	padding-left: 1em;
 	line-height: 1px;
 }
@@ -397,7 +397,7 @@ a:hover {
 	border-radius: 12px;
 	background-color: rgba(0, 0, 255, 0.2);
 	text-align: center;
-	height: 20em;
+	height: 8em;
 	width: 10em;
 }
 .vision {
@@ -405,12 +405,13 @@ a:hover {
 	border-radius: 12px;
 	background-color: rgba(0, 0, 255, 0.2);
 	text-align: center;
-	height: 20em;
+	height: 8em;
 	width: 10em;
 }
 
 /* ------------=========== Info page =====-----------*/
 .infim {
+        position: relative;
 	background:  rgba(0, 0, 0, .9);
 }
 .info, .infi {
@@ -471,7 +472,7 @@ a:hover {
 	display:  none;
 
 }
-.contacts {
+form {
 	width: 18em;
 	text-align: center;
 }

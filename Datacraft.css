@@ -8,7 +8,7 @@ body {
 	scroll-behavior: smooth;
 	color:  #000;
 	box-sizing: content-box;
-        background-color: rgba(0, 0, 0, 0.1);
+        background-color: rgba(25,25,122,0.3);
 }
 .bk {
 	background-image: url(./lab.jpg);

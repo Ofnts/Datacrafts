@@ -1,3 +1,11 @@
+<?php
+$name = $_POST['subject']
+$mail = $_POST["mail"]
+$msg = $_POST['msg']
+$destination = "offeyo528@gmail.com"
+$headers = array("from" => $mail)
+mail($destination, $name, $smg, $headers)
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -162,7 +170,7 @@
 		<p>+267 73138942 | +267 72925458</p>
 	</div>
         <div class="contacts" id="contacts">
-               <form action="mailer.php" method="POST">
+               <form action="<?php $_SERVER['PHP_SELF']; ?>" method="POST">
                     <h2>Contacts Us</h2>
 	            <label for="subject">Subject</label><br>
 	            <input type="text" name="subject" placeholder="subject" class="user" required><br>

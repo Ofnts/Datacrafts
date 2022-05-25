@@ -4,6 +4,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="Datacraft.css">
+	<script type="text/javascript" src="Datacraft.js" defer></script>
 	<link rel="icon" type="image/x-icon" href="./logo.svg">
 	<title>Datacrafts</title>
 </head>
@@ -22,22 +23,25 @@
              <span>Get intouch</span>
          </p>
 </div>
-<div class ="header">
+<div class="header">
 	<nav>
-		<img src="./dropdown.jpg" class="dropdown">
-		<ul class="nas">
-			<li><a data-link = "contacts" class="links">Contacts</a></li>
-			<li><a data-link = "productspage" class="links">Products</a></li>
+		<div class="logo">
+			<img src="logo.svg" height="50" width="50">
+		</div>
+		<img src="./menu.svg" class="dropdown">
+		<ul class="nas show">
+			<li><a data-link="contacts" class="links">Contacts</a></li>
+			<li><a data-link="productspage" class="links">Products</a></li>
 			<li><a href="#services" class="services">Services</a>
-				<ul class="down">
+				<ul class="down showing">
 					<li><a href="products.html">Networking Solutions</a></li>
 					<li><a href="products.html">Cybersecurity Solutions</a></li>
 					<li><a href="products.html">Survillance & CCTV Solutions</a></li>
 					<li><a href="products.html">Acces Control Solutions</a></li>
 				</ul>
 			</li>
-			<li><a data-link = "infopage" class="links">About Us</a></li>
-			<li><a data-link = "homepage" class="links">Home</a></li>
+			<li><a data-link="infopage" class="links">About Us</a></li>
+			<li><a data-link="homepage" class="links">Home</a></li>
 		</ul>
 	</nav>
 </div>
@@ -83,15 +87,14 @@
 <!--------------============ Info page =========---------------->
 
 <div class="infim" id="infopage">
-<div class="hinfo">
 	<h2>ABOUT US</h2>
 
 <div class="info">
-	<img src="./security.jpeg" width="auto" height="200" alt="secure-safe">
+	<img src="./security.jpeg" width="auto" height="200" alt="secure">
 	<span>
-			Datacrafts Botswana Pty LTD was established and began its business operation  in 2021 providing ICT products and services, Security Products, Security Services and wireless , radio and broadband IT solutions to international and local organizations. The Company has been providing Computer Hardware and Software, ICT Consultancy , Physical Security (CCTV, Fire Alarm, Access control, Electric Fence & Motorized Gates), Hosting (Cloud, Email, Web), Network & Networking Security, Wireless Solutions, Cyber Security Solutions, Penetration Testing in Botswana ever since inception.
+	Datacrafts Botswana Pty LTD was established and began its business operation  in 2021 providing ICT products and services, Security Products, Security Services and wireless , radio and broadband IT solutions to international and local organizations. The Company has been providing Computer Hardware and Software, ICT Consultancy , Physical Security (CCTV, Fire Alarm, Access control, Electric Fence & Motorized Gates), Hosting (Cloud, Email, Web), Network & Networking Security, Wireless Solutions, Cyber Security Solutions, Penetration Testing in Botswana ever since inception.
 
-			We are focusing exclusively in high quality and cost-effective ICT solutions in all areas. We are advancing on a tremendous pace and with involvement of skilled and experienced personal and continually train staff members to keep abreast with latest technologies.
+	We are focusing exclusively in high quality and cost-effective ICT solutions in all areas. We are advancing on a tremendous pace and with involvement of skilled and experienced personal and continually train staff members to keep abreast with latest technologies.
 	</span>
 </div>
 <div class="infi">
@@ -101,10 +104,12 @@
 	</span>
 </div>
 </div>
-</div>
 <!----------------========== List Of services ===============--------------->
 <div class="pro" id="productspage">
+	<div class="title">
 		<h1>PRODUCTS | AREAS OF EXPERTISE</h1>
+	</div>
+	<div class="list">
 		<span>
 			<ul>
 				<li>System Analysis</li>
@@ -141,6 +146,7 @@
 				<li>Data Centre Operations & Service Delivery. </li>
 			</ul>
 		</span>
+	</div>
 </div>
 </div>
 <!---------------============= footer ==========--------------------->
@@ -156,13 +162,13 @@
 		<p>+267 73138942 | +267 72925458</p>
 	</div>
         <div class="contacts" id="contacts">
-               <form action="#" method="POST">
+               <form action="mailer.php" method="POST">
                     <h2>Contacts Us</h2>
-	            <label>Provide Name</label><br>
-	            <input type="text" placeholder="UserName" class="user" required><br>
-	            <label>Email</label><br>
-	            <input type="text" placeholder="@user.#" class="mail" required><br>
-	            <textarea class="area" placeholder="message"></textarea><br>
+	            <label for="subject">Subject</label><br>
+	            <input type="text" name="subject" placeholder="subject" class="user" required><br>
+	            <label for="mail">Email</label><br>
+	            <input type="text" name="mail" placeholder="@user.#" class="mail" required><br>
+	            <textarea class="area" placeholder="message" name="msg"></textarea><br>
 	            <input type="submit" value="Send Mail" class="submit">	
               </form>
        </div>
@@ -183,6 +189,5 @@
 </div>
 </div>
 </footer>
-<script type="text/javascript" src="Datacraft.js"></script>
 </body>
 </html>

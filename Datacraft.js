@@ -1,13 +1,12 @@
 const services = document.querySelector('.services')
 const list = document.querySelector('.down')
-
 services.addEventListener('click', function(){
   list.classList.toggle('showing')
 });
 
 const links = document.querySelectorAll('.links')
 links.forEach((item) => {
-  item.addEventListener('click', ()=>{
+  item.addEventListener('click', function(){
     const i = document.getElementById(item.getAttribute("data-link"));
     i.scrollIntoView({behavior:"smooth", block:"center"})
   })
@@ -17,16 +16,14 @@ addEventListener('scroll', function(){
   nav.classList.toggle('hov', window.scrollY > 0)
 })
 const menu = document.querySelector(".dropdown")
-const x = document.querySelector(".nas")
+const show = document.querySelector(".nas")
 menu.addEventListener('click', function(){
-  x.classList.toggle("down")
+  show.classList.toggle('show')
 });
 
 const txts = document.querySelector(".animate-text").children
 txtsLen=txts.length;
 let index=0;
-const textInTimer=3000,
-textOutTimer=2800;
 
 function animateText() {
   for(let i=0; i<txtsLen; i++){
@@ -36,7 +33,7 @@ function animateText() {
 
   setTimeout(function(){
     txts[index].classList.add("text-out");              
-    },textOutTimer)
+    },2800)
 
   setTimeout(function(){
     if(index == txtsLen-1){
@@ -45,10 +42,11 @@ function animateText() {
       index++;
    }
   animateText();
-  },textInTimer); 
+  },3000); 
 }
-         
- window.onload=animateText;
+
+addEventListener("load", animateText)
+
 
 
 

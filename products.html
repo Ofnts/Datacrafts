@@ -7,12 +7,18 @@
 </head>
 <body>
 <style type="text/css">
-.view-page {
-        display: flex;
-	justify-content: center;
-	align-items: center;
-	text-align: center;
-	font-family: sans-serif;
+body {
+	background: linear-gradient(to right, rgba(23,45,67,1.0), rgba(56,23,76,1.0));
+}
+.Cyber-view {
+	display: flex;
+        justify-content: center;
+        align-items: center;       
+}
+.Cyber-view img {
+	border-radius: 15px 15px 0 0;
+	height: 10em;
+	width: 100%;
 }
 .cr {
 	color: #fff;
@@ -21,99 +27,136 @@
 	margin: 3em 20px 0 20px;
 	border-radius: 15px;
 }
+
+.cr h3 {
+	color: blue;
+	text-align: center;
+}
 .cr ul li{
 	float: left;
 }
 button {
+	color: #fff;
 	border-radius: 15px;
+	background: #000090;
+	border: #000090 solid;
 	height: 2em;
 	justify-content: center;
 	align-items: center;
 	margin: 1em;
 	width: 90%;
+	cursor: pointer;
 }
-
+@media screen and (max-width: 920px){
 .Cyber-view {
-	display: flex;
+	display: grid;
+	margin: 0 5em;
         justify-content: center;
-        align-items: center;
-        flex-wrap: wrap;
-        flex-direction: row;
-        
+        align-items: center;        
 }
 .Cyber-view img {
 	border-radius: 15px 15px 0 0;
 	height: 10em;
 	width: 100%;
 }
-@media screen and (max-width: 720px){
-	.view-page {
-		display: flex;
-                flex-direction: column;
+.cr {
+	color: #fff;
+	background-color: rgba(0, 0, 0, .8);
+	font-size: 15px;
+	margin: 3em 20px 0 20px;
+	border-radius: 15px;
 }
+
+.cr h3 {
+	color: blue;
+	text-align: center;
+}
+.cr ul {
+	display: grid;
+}
+.cr ul li{
+	float: left;
+}
+button {
+	color: #fff;
+	border-radius: 15px;
+	background: #000090;
+	border: #000090 solid;
+	height: 2em;
+	justify-content: center;
+	align-items: center;
+	margin: 1em;
+	width: 90%;
+}
+}
+
 </style>
-<div class="view-page">
-	<div class="Cyber-view">
+<div class="Cyber-view">
 	<div class="cr">
 		<img src="./cisco-networking.jpg" alt="cisco">
-		<p>Networking</p>
+		<h3>Networking</h3>
 			<ul>
 				<li>System Analysis</li>
-				<li>System Intergration</li>
+				<li>System Integration</li>
 				<li>Power Solution</li>
 				<li>E-Business Solution</li>
 				<li>Fire Detection & Alarm</li>
 				<li>Hosting (Cloud, Email, Web)</li>
 				<li>Network Monitoring & Networking</li>
-				<li>Server Maintanence & Support</li>
+				<li>Server Maintenance & Support</li>
 			</ul>
-		<button>Enquire</button>
+		<button>Inquire</button>
 	</div>
 	<div class="cr">
 		<img src="./security.jpeg" alt="security" >
-		<p>Cybersecurity</p>
+		<h3>Cybersecurity</h3>
 			<ul>
 				<li>System Analysis</li>
-				<li>System Intergration</li>
+				<li>System Integration</li>
 				<li>Power Solution</li>
 				<li>E-Business Solution</li>
 				<li>Fire Detection & Alarm</li>
 				<li>Hosting (Cloud, Email, Web)</li>
 				<li>Network Monitoring & Networking</li>
-				<li>Server Maintanence & Support</li>
+				<li>Server Maintenance & Support</li>
 			</ul>
-		<button>Enquire</button>
+		<button>Inquire</button>
 	</div>
 	<div class="cr">
 		<img src="./IMG-20220330-WA0002.jpg" alt="server">
-		<p>Access Control</p>
+		<h3>Access Control</h3>
 			<ul>
 				<li>System Analysis</li>
-				<li>System Intergration</li>
+				<li>System Integration</li>
 				<li>Power Solution</li>
 				<li>E-Business Solution</li>
 				<li>Fire Detection & Alarm</li>
 				<li>Hosting (Cloud, Email, Web)</li>
 				<li>Network Monitoring & Networking</li>
-				<li>Server Maintanence & Support</li>
+				<li>Server Maintenance & Support</li>
 			</ul>
-		<button>Enquire</button>
+		<button>Inquire</button>
 	</div>
 	<div class="cr">
 		<img src="./cam.jpg" alt="cam">
-		<p>Survillance/CCTV</p>
+		<h3>Surveillance/CCTV</h3>
 			<ul>
 				<li>System Analysis</li>
-				<li>System Intergration</li>
+				<li>System Integration</li>
 				<li>Power Solution</li>
 				<li>E-Business Solution</li>
 				<li>Fire Detection & Alarm</li>
 				<li>Hosting (Cloud, Email, Web)</li>
 				<li>Network Monitoring & Networking</li>
-				<li>Server Maintanence & Support</li>
+				<li>Server Maintenance & Support</li>
 			</ul>
-		<button>Enquire</button>
+		<button>Inquire</button>
 	</div>
-	</div>
+</div>
+<script type="text/javascript">
+	const target = document.querySelectorAll("button")
+	target.forEach((btn) =>{
+	})
+</script>
 </body>
 </html>

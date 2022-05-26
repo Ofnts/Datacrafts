@@ -122,7 +122,7 @@ a:hover {
 }
 .Cybersecurity img {
 	margin: 1em;
-	border-radius: 30%;
+	border-radius: 50%;
 	height: 10em;
 	width: 10.2em;
 }
@@ -181,12 +181,15 @@ a:hover {
 
 .info span{
 	margin: 1em;
+        white-space: normal;
 }
 .info img {
 	order: 2;
 }
 .infi span{
-	margin: 1em;}
+	margin: 1em;
+        white-space: normal;
+}
 
 .infim h2{
 	margin: 0;
@@ -206,7 +209,7 @@ a:hover {
 	display: flex;
 }
 .pro span {
-	text-align: justify;
+	text-align: center;
 	margin: 5px;
 }
 .pro span ul li {
@@ -401,7 +404,7 @@ nav li a {
 }
 .Cybersecurity img {
 	margin: 0.5em;
-	border-radius: 30%;
+	border-radius: 50%;
         width: 5.5em;
         height: 5.5em;
 }
@@ -447,7 +450,6 @@ nav li a {
 .infim {
 	color: #fff;
 	background:  rgba(0, 0, 0, 1);
-	border-radius: 12em 0 0 0;
 }
 .info, .infi {
 	display: flex;

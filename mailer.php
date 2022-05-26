@@ -1,8 +1,13 @@
 <?php
-$name = $_POST['subject']
-$mail = $_POST["mail"]
-$msg = $_POST['msg']
+include(index.php)
+
+$name = htmlentities($_POST['subject'])
+$mail = htmlentities($_POST["mail"])
+$msg = htmlentities($_POST['msg'])
+
 $destination = "offeyo528@gmail.com"
-$headers = array("from" => $mail)
+$headers = ["from" => $mail]
+
 mail($destination, $name, $smg, $headers)
 ?>
+

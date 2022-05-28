@@ -10,15 +10,18 @@ links.forEach((item) => {
     const i = document.getElementById(item.getAttribute("data-link"));
     i.scrollIntoView({behavior:"smooth", block:"center"})
   })
-})
-addEventListener('scroll', function(){
-  const nav = document.querySelector('nav');
-  nav.classList.toggle('hov', window.scrollY > 0)
-})
+});
+
 const menu = document.querySelector(".dropdown")
 const show = document.querySelector(".nas")
 menu.addEventListener('click', function(){
-  show.classList.toggle('show')
+  if(show.classList.toggle('show')){
+    menu.src = "./menu.svg"
+  }else{
+    menu.src = "./cross.svg"
+  }
+  
+
 });
 
 const txts = document.querySelector(".animate-text").children
@@ -44,6 +47,12 @@ function animateText() {
   animateText();
   },3000); 
 }
+
+
+addEventListener('scroll', function(){
+  const nav = document.querySelector('nav');
+  nav.classList.toggle('hov', window.scrollY > 0)
+})
 
 addEventListener("load", animateText)
 

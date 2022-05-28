@@ -30,9 +30,9 @@
 		</div>
 		<img src="./menu.svg" class="dropdown">
 		<ul class="nas show">
-			<li><a data-link="contacts" class="links">Contacts</a></li>
-			<li><a data-link="productspage" class="links">Products</a></li>
-			<li><a href="#services" class="services">Services</a>
+			<li><a data-link="contacts" class="links"><img src="phone.svg" name="contacts">Contacts</a></li>
+			<li><a data-link="productspage" class="links"><img src="cart.svg" name="products">Products</a></li>
+			<li><a href="#services" class="services"><img src="settings.svg" name="settings">Services</a>
 				<ul class="down showing">
 					<li><a href="products.html">Networking Solutions</a></li>
 					<li><a href="products.html">Cybersecurity Solutions</a></li>
@@ -40,8 +40,8 @@
 					<li><a href="products.html">Acces Control Solutions</a></li>
 				</ul>
 			</li>
-			<li><a data-link="infopage" class="links">About Us</a></li>
-			<li><a data-link="homepage" class="links">Home</a></li>
+			<li><a data-link="infopage" class="links"><img src="edit.svg" name="About-us">About Us</a></li>
+			<li><a data-link="homepage" class="links"><img src="home.svg" name="home">Home</a></li>
 		</ul>
 	</nav>
 </div>
@@ -164,10 +164,10 @@
         <div class="contacts" id="contacts">
                <form action="mailer.php" method="POST">
                     <h2>Contacts Us</h2>
-	            <label for="subject">Subject</label><br>
-	            <input type="text" name="subject" placeholder="subject" class="user" required><br>
+	            <label for="user">Subject</label><br>
+	            <input type="text" name="user" placeholder="subject" required><br>
 	            <label for="mail">Email</label><br>
-	            <input type="text" name="mail" placeholder="@user.#" class="mail" required><br>
+	            <input type="text" name="mail" required><br>
 	            <textarea class="area" placeholder="message" name="msg"></textarea><br>
 	            <input type="submit" value="Send Mail" class="submit">	
               </form>

@@ -297,7 +297,7 @@ input[name="mail"] {
 	background-size: cover;
         border-radius: 0 0 40px 40px;
 	width: 100%;
-	height: 24em;
+	height: 22em;
 }
 /* ---------======== Page Header ============-----------*/
 .header {
@@ -380,7 +380,7 @@ img[name="settings"],[name="contacts"],
 	color: #fff;
 	text-align: center;
 	width: 100%;
-	height: 24em;
+	height: 22em;
 	background-color: rgba(0, 0, 0, 0.4);
 
 }
@@ -429,8 +429,8 @@ img[name="settings"],[name="contacts"],
 .Cybersecurity img {
 	margin: 0.5em;
 	border-radius: 50%;
-        width: 5.5em;
-        height: 5.5em;
+        width: 5.0em;
+        height: 5.0em;
 }
 
 /* -----------================ content =============------------------*/
@@ -470,6 +470,7 @@ img[name="settings"],[name="contacts"],
 
 /* ------------=========== Info page =====-----------*/
 .infim {
+        font-size: 10px;
 	color: #fff;
 	background:  rgba(0, 0, 0, 1);
 }
@@ -479,7 +480,7 @@ img[name="settings"],[name="contacts"],
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
-	text-align: justify;
+	text-align: center;
 }
 
 .info span {

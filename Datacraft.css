@@ -156,7 +156,7 @@ a:hover {
         color: #fff;
 	font-style: oblique;
 	border-radius: 12px;
-	background: rgba(0,0,0,0.7);
+	background: rgba(0,0,0,1);
 	margin-right: 2em ;
 	text-align: center;
 	height: 13em;
@@ -167,7 +167,7 @@ a:hover {
 	padding: 1vh;
         color: #fff;
 	border-radius: 12px;
-	background: rgba(0,0,0,0.7);
+	background: rgba(0,0,0,1);
 	text-align: center;
 	height: 13em;
 	width: 18em;
@@ -450,7 +450,7 @@ img[name="settings"],[name="contacts"],
 .mission {
 	padding: 1vh;
         color: #fff;
-        background: rgba(0,0,0,0.7)
+        background: rgba(0,0,0,1)
 	font-style: oblique;
 	border-radius: 12px;
 	margin-right: 2em ;
@@ -462,7 +462,7 @@ img[name="settings"],[name="contacts"],
 	font-style: oblique;
 	padding: 1vh;
         color: #fff;
-        background: rgba(0,0,0,0.7)
+        background: rgba(0,0,0,1)
 	border-radius: 12px;
 	text-align: center;
 	height: auto;

@@ -251,7 +251,6 @@ a:hover {
 	text-align: center;
 	width: 20em;
 	margin: 2em 0;
-	border-radius: 25px;
 	box-shadow: 5px 5px 20px 0 whitesmoke;
 	background: rgba(255, 255, 255, 0.5);
 }
@@ -340,7 +339,7 @@ nav {
 	height: 3.5em;
 }
 nav.hov {
-	background-color: rgba(56, 97, 13, 0.7);
+	background-color: rgba(0, 0, 0, 0.7);
 }
 nav li {
 	font-size: 19px;
@@ -540,7 +539,6 @@ img[name="settings"],[name="contacts"],
 	text-align: center;
 	width: 20em;
 	margin: 3em 0;
-	border-radius: 25px;
 	box-shadow: 5px 5px 20px 0 whitesmoke;
 	background: rgba(255, 255, 255, 0.5);
 }

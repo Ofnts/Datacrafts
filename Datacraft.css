@@ -251,7 +251,6 @@ a:hover {
 	text-align: center;
 	width: 20em;
 	margin: 2em 0;
-	box-shadow: 5px 5px 20px 0 whitesmoke;
 	background: rgba(255, 255, 255, 0.5);
 }
 input[name="user"] {
@@ -539,7 +538,6 @@ img[name="settings"],[name="contacts"],
 	text-align: center;
 	width: 20em;
 	margin: 3em 0;
-	box-shadow: 5px 5px 20px 0 whitesmoke;
 	background: rgba(255, 255, 255, 0.5);
 }
 input[name="user"] {

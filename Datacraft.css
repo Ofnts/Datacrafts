@@ -4,9 +4,9 @@ body {
 	padding: 0;
 	font-family: sans-serif;
 	scroll-behavior: smooth;
-	color:  #fff;
+	color:  #000;
 	box-sizing: content-box;
-        background-color: rgba(0,0,0,1);
+        background-color: rgba(0,0,0,.1);
 }
 .bk {
 	background-image: url(./lab.jpg);
@@ -153,6 +153,7 @@ a:hover {
 
 .mission {
 	padding: 1vh;
+        color: #fff;
 	font-style: oblique;
 	border-radius: 12px;
 	background: rgba(0,0,0,.5);
@@ -163,6 +164,7 @@ a:hover {
 }
 .vision {
 	font-style: oblique;
+        color: #fff;
 	padding: 1vh;
 	border-radius: 12px;
 	background: rgba(0,0,0.5);
@@ -173,6 +175,7 @@ a:hover {
 
 /* ------------=========== Info page =====-----------*/
 .infim {
+        color: #fff;
 	background:  rgba(0, 0, 0, .5);
 }
 .info, .infi {
@@ -446,6 +449,7 @@ img[name="settings"],[name="contacts"],
 }
 .mission {
 	padding: 1vh;
+        color: #fff;
         background: rgba(0,0,0,.5)
 	font-style: oblique;
 	border-radius: 12px;
@@ -456,6 +460,7 @@ img[name="settings"],[name="contacts"],
 }
 .vision {
 	font-style: oblique;
+        color: #fff;
 	padding: 1vh;
         color: #fff;
         background: rgba(0,0,0,.5)
@@ -468,6 +473,7 @@ img[name="settings"],[name="contacts"],
 /* ------------=========== Info page =====-----------*/
 .infim {
         font-size: 12px;
+        color: #fff;
 	background:  rgba(0, 0, 0, .5);
 }
 .info, .infi {

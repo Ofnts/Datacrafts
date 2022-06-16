@@ -155,7 +155,6 @@ a:hover {
 	padding: 1vh;
         color: #fff;
 	font-style: oblique;
-	border-radius: 12px;
 	background: rgba(0,0,0,1);
 	margin-right: 2em ;
 	text-align: center;
@@ -166,8 +165,7 @@ a:hover {
 	font-style: oblique;
         color: #fff;
 	padding: 1vh;
-	border-radius: 12px;
-	background: rgba(0,0,1);
+	background: rgba(0,0,0,1);
 	text-align: center;
 	height: 13em;
 	width: 18em;
@@ -239,8 +237,6 @@ a:hover {
 }
 .address {
 	display: grid;
-	padding-left: 1em;
-	text-align: justify;
 }
 .address p {
         margin: 1em;
@@ -314,21 +310,23 @@ input[name="mail"] {
 	display: none;
 }
 .nas {
-	display: grid;
+	animation: fade 0.5s linear;
+	display: flex;
+	flex-direction: column;
 	width: 100%;
+	height: 20vh;
 	position: absolute;
 	justify-content: center;
-	align-items: flex-end;
 	background: black;
 	margin: 0;
-	padding: 0;
+	overflow: wrap;
 	padding-top: 4em;
 }
 .show {
 	display: none;
 }
 .dropdown {
-	padding: 10px;
+	padding-top: 10px;
 	display: flex;
 	height: 30px;
 	width: 60px;
@@ -347,6 +345,7 @@ nav.hov {
 nav li {
 	font-size: 19px;
 	list-style: none;
+
 }
 nav li a {
 	color: #fff;
@@ -358,9 +357,6 @@ img[name="settings"],[name="contacts"],
 	margin: 0 1em;
 	height: 1em;
 	width: auto;
-}
-.links {
-	cursor: pointer;
 }
 .logo {
 	flex: 1;
@@ -450,9 +446,8 @@ img[name="settings"],[name="contacts"],
 .mission {
 	padding: 1vh;
         color: #fff;
-        background: rgba(0,0,0,1)
+        background: rgba(0,0,0,1);
 	font-style: oblique;
-	border-radius: 12px;
 	margin-right: 2em ;
 	text-align: center;
 	height: auto;
@@ -463,8 +458,7 @@ img[name="settings"],[name="contacts"],
         color: #fff;
 	padding: 1vh;
         color: #fff;
-        background: rgba(0,0,0,1)
-	border-radius: 12px;
+        background: rgba(0,0,0,1);
 	text-align: center;
 	height: auto;
 	width: 14em;
@@ -599,4 +593,11 @@ input[name="mail"] {
 
 	}
 }
-
+@keyframes fade{
+	from{
+		transform: translateY(-50px);
+	}
+	to{
+		transform: translateY(0px);
+	}
+}

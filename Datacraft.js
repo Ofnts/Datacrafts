@@ -23,7 +23,6 @@ menu.addEventListener('click', function(){
   
 
 });
-
 const txts = document.querySelector(".animate-text").children
 txtsLen=txts.length;
 let index=0;
